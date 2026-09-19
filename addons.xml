@@ -1,0 +1,485 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<addons>
+<addon id="plugin.audio.angel"
+       name="Angel"
+       version="1.0.0"
+       provider-name="Tripp">
+    <requires>
+        <import addon="xbmc.python" version="3.0.0"/>
+    </requires>
+    <extension point="xbmc.python.pluginsource" library="default.py">
+        <provides>audio</provides>
+    </extension>
+    <extension point="xbmc.addon.metadata">
+        <summary>Angel — a tiny celestial radio station for Kodi</summary>
+        <description>Lightweight internet-radio browser with a celestial theme.</description>
+        <platform>all</platform>
+    </extension>
+</addon>
+<addon id="plugin.image.flickr" name="Flickr" version="0.2.0" provider-name="Tripp">
+  <requires>
+    <import addon="xbmc.python" version="3.0.0"/>
+  </requires>
+  <extension point="xbmc.python.pluginsource" library="default.py">
+    <provides>image</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary lang="en_GB">Browse public and private Flickr photos in Kodi.</summary>
+    <description lang="en_GB">A lightweight Flickr browser for Kodi Omega with OAuth account sign-in.</description>
+    <platform>all</platform>
+    <assets>
+      <icon>icon.png</icon>
+    </assets>
+  </extension>
+</addon>
+<addon id="plugin.image.friday_e621"
+       name="Friday e621 Grabber"
+       version="5.3.0"
+       provider-name="Tripp">
+    <requires>
+        <import addon="xbmc.python" version="3.0.0"/>
+    </requires>
+    <extension point="xbmc.python.pluginsource" library="addon.py">
+        <provides>image</provides>
+    </extension>
+    <extension point="xbmc.addon.metadata">
+        <summary lang="en_gb">Browse, search and rip e621 galleries straight from Kodi</summary>
+        <description lang="en_gb">Tag search, fuzzy tag lookup, multi-tag query builder, saved searches, and one-click ZIP ripping of the current page or every page in a search. Tuned for Raspberry Pi 3: streamed downloads, small thread pool, no third-party dependencies.</description>
+        <disclaimer lang="en_gb">Unofficial. Respect the e621 API terms and rate limits.</disclaimer>
+        <platform>all</platform>
+        <license>MIT</license>
+        <news>v5.3.0 - ALL RATINGS ON and ALL RATINGS OFF buttons side by side on the main menu, plus transparent-background icon, banner and clearlogo art for skins like Transparency! that lean on those asset types.</news>
+        <assets>
+            <icon>resources/icon.png</icon>
+            <fanart>resources/fanart.jpg</fanart>
+            <banner>resources/banner.png</banner>
+            <clearlogo>resources/clearlogo.png</clearlogo>
+        </assets>
+    </extension>
+</addon>
+<addon id="plugin.program.theredwizard" name="[COLOR red]The Red Wizard[/COLOR]" version="4.3.9" provider-name="Slam, Sarge, adamsbuilds, Funsterbe, BYB, Zaxxon709, [COLOR red]The Red Wizard[/COLOR]">
+	<requires>
+		<import addon="xbmc.python" version="3.0.0"/>
+	</requires>
+	<extension point="xbmc.python.pluginsource" library="addon.py">
+		<provides>executable</provides>
+	</extension>
+	<extension point="xbmc.service" library="service.py" />
+	<extension point="xbmc.addon.metadata">
+		<summary lang="en_GB">The Red Wizard for Kodi 21 Omega and Kodi 22 Piers</summary>
+		<description lang="en_GB">The Red Wizard for installing, updating and maintaining The Red Wizard Kodi 21 Omega and Kodi 22 Piers builds</description>
+		<disclaimer lang="en_GB">The author of this add-on does not host any content and has no affiliation with the content providers</disclaimer>
+		<language>en</language>
+		<platform>all</platform>
+		<license>GPL-2.0-or-later</license>
+		<forum>https://t.me/+XiuBf9KvPfw2MzVk</forum>
+		<website>https://redwizard.xyz/</website> 
+		<source>https://github.com/The-Red-Wizard/TheRedWizard</source>
+		<news>2026-09-07
+ * Build backup shows a progress dialog until the zip is finished
+ * Save GUI Settings applies to name changes and same-build updates; new installs always use the zip GUI
+ * GUI restore overwrites guisettings.xml so Kodi cannot replace it with a default during install
+ * First run after a build install starts the build's binary installer so InstallAddon no longer waits for a second boot
+ * Speedtest keeps local results if there is no speedtest.net image, tries HTTPS for upload, and shows a toast if the test fails
+ * Speedtest ping uses a 10 second timeout and averages the probes that actually ran
+ * Restore from backup skips natives that do not belong on this OS and prepares binary add-ons the same way as a build install
+ * Video Cache Settings can auto-detect size from free RAM
+ * Speedtest now uses the same JSON endpoint as the speedtest.net website</news>
+		<assets>
+				<icon>resources/media/icon.png</icon>
+				<fanart>resources/media/fanart.jpg</fanart>
+				<screenshot>resources/media/screenshot01.jpg</screenshot>
+				<screenshot>resources/media/screenshot02.jpg</screenshot>
+				<screenshot>resources/media/screenshot03.jpg</screenshot>
+				<screenshot>resources/media/screenshot04.jpg</screenshot>
+				<screenshot>resources/media/screenshot05.jpg</screenshot>
+				<screenshot>resources/media/screenshot06.jpg</screenshot>
+				<screenshot>resources/media/screenshot07.jpg</screenshot>
+				<screenshot>resources/media/screenshot08.jpg</screenshot>
+				<screenshot>resources/media/screenshot09.jpg</screenshot>
+				<screenshot>resources/media/screenshot10.jpg</screenshot>
+		</assets>
+	</extension>
+</addon>
+<addon id="plugin.program.titin"
+       name="TITIN"
+       version="1.0.0"
+       provider-name="Tripp">
+    <requires>
+        <import addon="xbmc.python" version="3.0.0"/>
+    </requires>
+    <extension point="xbmc.python.pluginsource" library="default.py">
+        <provides>executable</provides>
+    </extension>
+    <extension point="xbmc.addon.metadata">
+        <summary>TITIN — random internet curiosities</summary>
+        <description>A tiny Kodi rabbit-hole machine. Browse random curiosities, facts, and prompts.</description>
+        <platform>all</platform>
+    </extension>
+</addon>
+<addon id="plugin.program.verity"
+       name="VERITY"
+       version="1.0.0"
+       provider-name="Tripp">
+  <requires>
+    <import addon="xbmc.python" version="3.0.0"/>
+  </requires>
+  <extension point="xbmc.python.pluginsource" library="default.py">
+    <provides>executable</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary>The Truth Terminal</summary>
+    <description>VERITY is a lightweight Kodi fact-checking and curiosity hub.</description>
+    <platform>all</platform>
+  </extension>
+</addon>
+<addon id="plugin.program.void"
+       name="VOID"
+       version="1.0.0"
+       provider-name="Tripp">
+    <requires>
+        <import addon="xbmc.python" version="3.0.0"/>
+    </requires>
+    <extension point="xbmc.python.pluginsource" library="default.py">
+        <provides>executable</provides>
+    </extension>
+    <extension point="xbmc.addon.metadata">
+        <summary>Signals, artifacts, lost media, lore, and other strange things.</summary>
+        <description>VOID is a lightweight Kodi curiosity hub. Includes a launcher for the WWV Simulator.</description>
+        <platform>all</platform>
+    </extension>
+</addon>
+<addon id="plugin.video.adultswim"
+       name="Adult Swim"
+       version="2.0.1"
+       provider-name="jsergio">
+  <requires>
+      <import addon="xbmc.python" version="2.20.0"/>
+      <import addon="script.module.t1mlib" version="1.0.18"/>
+      <import addon="script.module.metahandler" version="2.9.0"/>
+  </requires>
+  <extension point="xbmc.python.pluginsource"
+            library="default.py">
+        <provides>video</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary lang="en_GB">Adult Swim</summary>
+    <description lang="en_GB">Watch free episodes from adultswim.com</description>
+    <disclaimer lang="en_GB">Feel free to use this script.</disclaimer>
+    <platform>all</platform>
+    <license>GNU GENERAL PUBLIC LICENSE. Version 2, June 1991</license>
+    <website>www.adultswim.com</website>
+    <source>https://github.com/jsergio123/plugin.video.adultswim</source>
+  </extension>
+</addon>
+<addon id="plugin.video.cartoon_network"
+       name="Cartoon Network"
+       version="1.0.1"
+       provider-name="jsergio">
+  <requires>
+    <import addon="xbmc.python" version="2.25.0"/>
+    <import addon="script.module.t1mlib" version="1.0.18"/>
+    <import addon="script.module.metahandler" version="2.9.0"/>
+  </requires>
+  <extension point="xbmc.python.pluginsource"
+            library="default.py">
+        <provides>video</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary lang="en_GB">Cartoon Network</summary>
+    <description lang="en_GB">Watch free episodes from cartoonnetwork.com[CR][CR][B]Follow me @ twitter.com/jsergio123[/B]</description>
+    <disclaimer lang="en_GB">Feel free to use this script.</disclaimer>
+    <platform>all</platform>
+    <license>GNU GENERAL PUBLIC LICENSE. Version 2, June 1991</license>
+    <website>www.cartoonnetwork.com</website>
+    <source>https://github.com/jsergio123/plugin.video.cartoon_network</source>
+  </extension>
+</addon>
+<addon id="plugin.video.fireplace"
+       name="FIREPLACE"
+       version="1.0.0"
+       provider-name="Tripp">
+  <requires>
+    <import addon="xbmc.python" version="3.0.0"/>
+  </requires>
+  <extension point="xbmc.python.pluginsource" library="default.py">
+    <provides>video</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary>Cozy fires for your Kodi screen.</summary>
+    <description>A lightweight fireplace ambience launcher with several atmosphere presets.</description>
+    <platform>all</platform>
+  </extension>
+</addon>
+<addon id="plugin.video.plutotv" version="1.1.8b" name="Pluto.TV" provider-name="Lunatixz">
+    <requires>
+        <import addon="xbmc.python" version="2.25.0"/>
+        <import addon="script.module.six" version="1.0.0"/>
+        <import addon="script.module.simplecache" version="1.0.0"/>
+        <import addon="script.module.uepg" version="1.0.6"/>
+        <import addon="script.module.inputstreamhelper" version="0.3.3"/>
+    </requires>
+    <extension point="xbmc.python.pluginsource" library="default.py">
+        <provides>video</provides>
+    </extension>
+    <extension point="xbmc.service" library="pseudotv_recommended.py" start="login"/>
+    <extension point="xbmc.addon.metadata">
+        <reuselanguageinvoker>true</reuselanguageinvoker>
+        <summary lang="en_GB">TV channels devoted to your favorite things, made from blockbuster movies from Paramount, ... “The genius of Pluto TV: This is real internet television”.</summary>
+        <description lang="en_GB">Watch Free TV on Kodi! Stream Pluto TV's 100+ channels of news, sports, and the Internet's best, completely free on your Kodi device.</description>
+        <platform>all</platform>
+        <license>GNU GENERAL PUBLIC LICENSE. Version 3, June 2007</license>
+        <source>https://github.com/Lunatixz/KODI_Addons/tree/master/plugin.video.plutotv</source>
+        <website>http://pluto.tv/</website>
+        <broken>deprecated</broken>
+        <forum>http://forum.kodi.tv/showthread.php?tid=315513</forum>
+        <news>v1.1.6[CR]- Moved to Pluto.TV API v2+[CR]- Added PY3 Support[CR]- Major Code Refactoring[CR]v1.1.4[CR]- Back-end updates[CR]-v1.1.2[CR]- Improved usability[CR]v1.1.0[CR]- Improved UWP check [CR]- Added automatic region detection[CR]- Improved guide load times[CR]- Improved overall performance[CR]v1.0.9[CR]- Added UWP check[CR]- Improved Playback[CR]v1.0.8[CR]- Fixed parsing errors[CR]- Added uEPG guide[CR]v1.0.7[CR]- init. uEPG support.[CR]- New menu items.[CR]- Misc. Tweaks.[CR]v1.0.7[CR]- Improved browsing speed[CR]- General tweaks and improvements.[CR]v1.0.6[CR]- Added Guest Login.[CR]- Added Geoblock warning.[CR]v1.0.5[CR]- Fixed Android Login[CR]v1.0.4[CR]- Added Region Selection and Improved Region Filter[CR]- Added Startup Wizard and Improved Login Verification.[CR]v1.0.3[CR]- Fixed Menu and Tweaked cache.[CR]v1.0.2[CR]- Fixed cookie issue on android devices.[CR]- Updated cache life.[CR]v1.0.1[CR]- Fixed login cache issue.</news>
+        <assets>
+            <icon>resources/images/icon.png</icon>
+            <fanart>resources/images/fanart.jpg</fanart>
+            <screenshot>resources/images/screenshot01.png</screenshot>
+            <screenshot>resources/images/screenshot02.png</screenshot>
+            <screenshot>resources/images/screenshot03.png</screenshot>
+            <screenshot>resources/images/screenshot04.png</screenshot>
+        </assets>
+    </extension>
+</addon>
+<addon id="repository.friday"
+       name="Friday's Repository"
+       version="1.0.0"
+       provider-name="Tripp">
+    <extension point="xbmc.addon.repository" name="Friday's Repository">
+        <dir>
+            <info compressed="false">https://raw.githubusercontent.com/tflanigan-bit/repository.friday/main/addons.xml</info>
+            <checksum>https://raw.githubusercontent.com/tflanigan-bit/repository.friday/main/addons.xml.md5</checksum>
+            <datadir zip="true">https://raw.githubusercontent.com/tflanigan-bit/repository.friday/main/</datadir>
+        </dir>
+    </extension>
+    <extension point="xbmc.addon.metadata">
+        <summary lang="en_GB">Tripp's personal Kodi addon repository</summary>
+        <description lang="en_GB">Home of the Friday-built Kodi addons: e621 grabber, private Flickr browser, Text Browser and Web Viewer. Install this once and every addon inside updates itself automatically.</description>
+        <platform>all</platform>
+        <license>MIT</license>
+        <assets>
+            <icon>icon.png</icon>
+        </assets>
+    </extension>
+</addon>
+﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<addon id="repository.gamestarter" name="Gamestarter add-on repository" version="3.0.0" provider-name="Bite Your Idols!">
+    <extension point="xbmc.addon.repository" name="Gamestarter add-on repository">
+        <info compressed="true">https://github.com/bite-your-idols/Gamestarter/raw/master/repository.gamestarter/addons.xml</info>
+        <checksum>https://github.com/bite-your-idols/Gamestarter/raw/master/repository.gamestarter/addons.xml.md5</checksum>
+        <datadir zip="true">https://raw.githubusercontent.com/bite-your-idols/Gamestarter/master/repository.gamestarter/</datadir>
+    </extension>
+    <extension point="xbmc.addon.metadata">
+        <summary>Gamestarter add-on repository</summary>
+		<description lang="en">Gamestarter add-on repository</description>
+        <platform>all</platform>
+    </extension>
+</addon>
+<addon id="repository.jsergio" name="jsergio repo" version="1.0.7" provider-name="jsergio">
+	<extension point="xbmc.addon.repository">
+		<dir>
+			<info>https://raw.githubusercontent.com/jsergio123/zips/master/addons.xml.gz</info>
+			<checksum verify="sha256">https://raw.githubusercontent.com/jsergio123/zips/master/addons.xml.gz.sha256</checksum>
+			<datadir zip="true">https://raw.githubusercontent.com/jsergio123/zips/master/</datadir>
+			<artdir>https://raw.githubusercontent.com/jsergio123/zips/master/</artdir>
+			<hashes>sha256</hashes>
+		</dir>
+	</extension>
+	<extension point="xbmc.addon.metadata">
+		<summary lang="en_US">Repo for jsergio Add-ons</summary>
+		<description lang="en_US">Repo for jsergio Add-ons</description>
+		<platform>all</platform>
+		<assets>
+			<icon>icon.png</icon>
+		</assets>
+	</extension>
+</addon>
+<addon id="repository.kodi.game"
+        name="Kodi game add-on repository (alpha)"
+        version="1.0.0"
+        provider-name="Team Kodi">
+    <requires>
+        <import addon="xbmc.addon" version="15.0.0"/>
+    </requires>
+    <extension point="xbmc.addon.repository" name="Kodi game add-on repository (alpha)">
+        <info compressed="false">https://raw.githubusercontent.com/kodi-game/repository.kodi.game/master/release/addons.xml</info>
+        <checksum>https://raw.githubusercontent.com/kodi-game/repository.kodi.game/master/release/addons.xml.md5</checksum>
+        <datadir zip="true">https://github.com/kodi-game/repository.kodi.game/raw/master/release/</datadir>
+    </extension>
+    <extension point="xbmc.addon.metadata">
+        <summary lang="en_GB">Install game add-ons from Kodi.tv</summary>
+        <description lang="en_GB">This repository is for development builds of Kodi's RetroPlayer project.</description>
+        <license>GPLv2</license>
+        <forum>http://forum.kodi.tv/forumdisplay.php?fid=194</forum>
+        <website>http://kodi.tv</website>
+        <source>https://github.com/kodi-game/repository.kodi.game</source>
+        <nofanart>true</nofanart>
+        <platform>all</platform>
+    </extension>
+</addon>
+<addon id="repository.slyguy" name="SlyGuy Repository" provider-name="SlyGuy" version="0.0.9">
+  <extension point="xbmc.addon.repository" name="SlyGuy Repository">
+    <dir>
+      <info compressed="false">https://slyguy.uk/.repo/repository.slyguy/addons.xml</info>
+      <checksum>https://slyguy.uk/.repo/repository.slyguy/addons.xml.md5</checksum>
+      <datadir zip="true">https://slyguy.uk/.repo/repository.slyguy/</datadir>
+    </dir>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <platform>all</platform>
+    <description lang="en">Addons by SlyGuy (slyguy.uk)</description>
+    <license></license>
+    <language></language>
+    <website></website>
+    <news></news>
+    <assets>
+      <icon>icon.png</icon>
+      <fanart>fanart.jpg</fanart>
+    </assets>
+  </extension>
+</addon>
+<addon id="repository.thecrew" name="[COLOR orchid]THE CREW REPO[/COLOR]" provider-name="The Crew" version="0.3.8">
+	<extension point="xbmc.addon.repository" name="The Crew" >
+			<dir minversion="18.9.9">
+			<info compressed="false">https://raw.githubusercontent.com/thecrewwh/zips/master/matrix/_zip/addons.xml</info>
+			<checksum>https://raw.githubusercontent.com/thecrewwh/zips/master/matrix/_zip/addons.xml.md5</checksum>
+			<datadir zip="true">https://raw.githubusercontent.com/thecrewwh/zips/master/matrix/_zip</datadir>
+			</dir>
+			<dir>
+			<info compressed="false">https://raw.githubusercontent.com/Gujal00/smrzips/master/addons.xml</info>
+			<checksum>https://raw.githubusercontent.com/Gujal00/smrzips/master/addons.xml.md5</checksum>
+			<datadir zip="true">https://raw.githubusercontent.com/Gujal00/smrzips/master/zips/</datadir>
+			</dir>
+			<dir>
+			<info compressed="false">https://raw.githubusercontent.com/unhingedthemes/zips/main/_zips/addons.xml</info>
+			<checksum>https://raw.githubusercontent.com/unhingedthemes/zips/main/_zips/addons.xml.md5</checksum>
+			<datadir zip="true">https://raw.githubusercontent.com/unhingedthemes/zips/main/_zips/</datadir>
+			</dir>
+			<dir>
+			<info compressed="false">https://github.com/OldManJax/repository.animaniac/raw/master/addons.xml</info>
+			<checksum>https://github.com/OldManJax/repository.animaniac/raw/master/addons.xml.md5</checksum>
+			<datadir zip="true">https://github.com/OldManJax/repository.animaniac/raw/master/</datadir>
+			</dir>
+			<dir>
+			<info compressed="false">https://raw.githubusercontent.com/dobbelina/repository.dobbelina/master/addons.xml</info>
+			<checksum>https://raw.githubusercontent.com/dobbelina/repository.dobbelina/master/addons.xml.md5</checksum>
+			<datadir zip="true">https://raw.githubusercontent.com/dobbelina/repository.dobbelina/master/</datadir>
+			</dir>
+	</extension>
+	<extension point="xbmc.addon.metadata">
+		<summary lang="en">The Crew is a team of individuals that does what it can to provide others, you the best in entertainment.</summary>
+		<description lang="en">Many come, Many go. The true and dedicated are here. We here</description>
+		<platform>all</platform>
+		<license>GNU GENERAL PUBLIC LICENSE. Version 3, 29 June 2007</license>
+		<disclaimer lang="en">The author of this addon do not host any of the content which is found and have no affiliation with any of the content providers. This addon simply searches websites for content. Use at your own risk!</disclaimer>
+		<assets>
+			<icon>icon.png</icon>
+			<fanart>fanart.jpg</fanart>
+			<screenshot>resources/art/ss/1.png</screenshot>
+			<screenshot>resources/art/ss/2.png</screenshot>
+			<screenshot>resources/art/ss/3.png</screenshot>
+		</assets>
+	</extension>
+</addon>
+<addon id="script.module.jsbeautifier" name="jsbeautifier" version="1.8.8" provider-name="jsergio">
+    <requires>
+        <import addon="xbmc.python" version="2.14.0"/>
+        <import addon="script.module.six" version="1.6.1" />
+    </requires>
+    <extension point="xbmc.python.module" library="lib" />
+    <extension point="xbmc.addon.metadata">
+        <summary>Written by Einar Lielmanis, maintained and evolved by Liam Newman.</summary>
+        <description>Beautify, unpack or deobfuscate JavaScript. Handles popular online obfuscators.</description>
+        <platform>all</platform>
+        <license>MIT</license>
+        <source>https://pypi.org/project/jsbeautifier/</source>
+        <website>https://beautifier.io/</website>
+    </extension>
+</addon>
+<addon id="script.module.resolveurl" name="ResolveURL" version="5.0.38" provider-name="jsergio">
+    <requires>
+        <import addon="xbmc.python" version="2.1.0" />
+        <import addon="plugin.video.youtube" optional="true" />
+        <import addon="script.module.python.twitch" optional="true" />
+        <import addon="script.module.cryptopy" version="1.2.6" optional="true" />
+        <import addon="plugin.video.gdrive" optional="true" />
+    </requires>
+    <extension point="xbmc.python.module" library="lib" />
+    <extension point="xbmc.python.pluginsource" library="lib/default.py" />
+    <extension point="xbmc.addon.metadata">
+        <platform>all</platform>
+        <summary lang="en">Resolve common video host URL's to be playable in XBMC/Kodi.</summary>
+        <summary lang="es">Resolver enlaces a videos de sitios populares para poder reproducirlos en XBMC/Kodi.</summary>
+        <summary lang="hr">Prilagodi najčešće URL-ove video izvora kako bi radili u XBMC/Kodiju.</summary>
+        <summary lang="el">Επίλυση συνδέσμων κοινών εξυπηρετητών σε μορφή βίντεο ικανό για αναπαραγωγή στο XBMC/Kodi.</summary>
+        <description lang="en">Resolve common video host URL's to be playable in XBMC/Kodi, simplify addon development of video plugins requiring multi video hosts.</description>
+        <description lang="hr">Prilagodi najčešće URL-ove video izvora kako bi radili u XBMC/Kodiju, pojednostavnjuje razvoj priključaka za video dodatke koji zahtjevaju višestruke video izvore.</description>
+    </extension>
+</addon>
+<addon id="script.module.resolveurl.xxx" version="2.0.1" name="Adult Resolver SMR Extension" provider-name="jsergio, Echo Coder">
+	<requires>
+		<import addon="xbmc.python" version="2.1.0"/>
+        <import addon="script.module.resolveurl" version="5.0.00" />
+	</requires>
+	<extension point="xbmc.python.module" library="lib" />
+	<extension point="xbmc.addon.metadata">
+		<summary lang="en">Resolve adult video host URL's to be playable in XBMC/Kodi.</summary>
+		<description lang="en">Resolve adult video host URL's to be playable in XBMC/Kodi.</description>
+		<platform>all</platform>
+	</extension>
+</addon>
+<addon id="script.textbrowser" name="Text Browser" version="1.0.0" provider-name="Friday">
+    <requires>
+        <import addon="xbmc.python" version="3.0.0"/>
+    </requires>
+    <extension point="xbmc.python.script" library="textbrowser.py">
+        <provides>executable</provides>
+    </extension>
+    <extension point="xbmc.addon.metadata">
+        <summary lang="en_GB">A basic linear text web browser</summary>
+        <description lang="en_GB">Text Browser fetches a web page, strips out styling, scripts and images, and shows you the plain text along with a list of links you can follow. No JavaScript, no CSS rendering, no images -- just words. Inspired by the classic "Web Viewer" addon, rebuilt from scratch for modern Kodi.</description>
+        <platform>all</platform>
+        <license>GPL-2.0-only</license>
+        <assets>
+            <icon>icon.jpg</icon>
+        </assets>
+    </extension>
+</addon>
+<addon id="script.web.viewer" name="Web Viewer" version="0.9.21" provider-name="Rick Phillips (ruuk)">
+	<requires>
+		<import addon="xbmc.python" version="2.1.0" />
+		<import addon="script.module.mechanize" version="0.2.6" />
+		<import addon="script.module.youtube.dl" version="14.304.0"/>
+	</requires>
+	<extension point="xbmc.python.script" library="lib/webviewer/webviewer.py">
+		<provides>executable</provides>
+	</extension>
+	<extension point="xbmc.python.module" library="lib" />
+	<extension point="xbmc.addon.metadata">
+		<platform>all</platform>
+		<summary lang="en">Simple web browser</summary>
+		<description lang="en">
+			Web Viewer is a linear text web browser. It is linear because it doesn't render pages, it filters them and displays text in the order it is found in the original HTML.
+
+			Web viewer also allows addon developers to process application authorization (ie. facebook,flickr etc.) with little programming and without violating terms of use.
+
+			What it does:
+			*You can follow links, fill out forms, view images
+			*Stream video/audio links
+			*It has back/forward history
+			*Bookmarks
+
+			What it doesn't do:
+			*Handle style sheets, javascript, flash, etc.
+			*Make web pages look good :)
+			*Lots of other stuff
+		</description>
+		<license>GNU GENERAL PUBLIC LICENSE. Version 2, June 1991</license>
+		<forum>http://forum.xbmc.org/showthread.php?tid=90007</forum>
+		<source>http://github.com/ruuk/script.web.viewer</source>
+	</extension>
+</addon>
+</addons>
